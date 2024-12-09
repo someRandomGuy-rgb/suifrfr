@@ -1181,16 +1181,21 @@ local function KBTVQZ_fake_script() -- rerollbtn.LocalScript
 	local plr = plrs.LocalPlayer
 	local dpname = plr.DisplayName
 	local messageList = {
+		"Imma fuck ur ass, "..dpname,
 		"Love urself, "..dpname,
 		"Boykissers are normally called: "..dpname,
 		"Hi, "..dpname,
+		"The most idiotic person in existence: "..dpname,
 		"Some random person: "..dpname,
+		"That ass seems very horny, "..dpname,
 		"kys, "..dpname,
 		"dont kys, "..dpname,
 		"idk what to put, "..dpname,
 		"Just a femboy: "..dpname,
+		"The gayest person in the world: "..dpname,
 		"You look smashable, "..dpname,
 		game.Name.." addict: "..dpname,
+		string.format(dpname)..", the retard"
 	}
 	print(game.Name)
 	print(messageList)

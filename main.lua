@@ -832,7 +832,6 @@ local function QLIKW_fake_script() -- fly.LocalScript
 		if not c then
 			if k.KeyCode == Enum.KeyCode.W then
 				if not enabled then return end
-				hrp.Anchored = false
 				if hrp:FindFirstChildOfClass("BodyVelocity") then
 					hrp:FindFirstChildOfClass("BodyVelocity"):Destroy()
 				end
